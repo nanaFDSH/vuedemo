@@ -23,17 +23,17 @@
   import Hello from '../components/Hello.vue'
 
   export default{
-    components: {vContent,Hello,vHeader,vFooter},
-    data(){
-      return{
-        list:[{'name':'张三'},{'name':'李四'}]
+    components: {vContent, Hello, vHeader, vFooter},
+    data () {
+      return {
+        list: [{'name': '张三'}, {'name': '李四'}]
       }
     },
-    created(){
+    created () {
       this.getData()
     },
-    methods:{
-      getData(){
+    methods: {
+      getData () {
 //        this.$api.get('topics', null, r => {
 //          console.log(r.data)
 //          this.list = r.data
