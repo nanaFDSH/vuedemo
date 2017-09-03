@@ -1,10 +1,17 @@
 # docker文档
+
 docker images 查看系统镜像
+
 docker ps 查看运行中的容器
+
 docker ps -a 查看所有的容器（包括未运行的容器）
+
 docker rmi 删除系统镜像
+
 docker rm 删除容器
+
 docker start/restart/stop 容器id或者容器名字
+
 docker run -it -v /Users/wnn/Desktop/gitlab/vuedemo/:/myvuetest -p 127.0.0.1:8080:8080  5327af3e5bbb bash 
 ```
 -it 交互模式
