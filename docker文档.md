@@ -12,7 +12,9 @@ docker rm 删除容器
 
 docker start/restart/stop 容器id或者容器名字
 
-docker run -it -v /Users/wnn/Desktop/gitlab/vuedemo/:/myvuetest -p 127.0.0.1:8080:8080  5327af3e5bbb bash 
+docker pull registry.cn-hangzhou.aliyuncs.com/wnn/vuedemo:1.1.0 拉取自己的镜像
+
+docker run -it -v /Users/wnn/Desktop/gitlab/vuedemo/:/myvuetest -p 127.0.0.1:8080:8080  5327af3e5bbb bash
 ```
 -it 交互模式
 －p 映射端口
