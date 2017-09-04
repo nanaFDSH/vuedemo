@@ -104,7 +104,8 @@ npm run build --report
 ajax请求增加
 src/api/index.js 
 
-```
+//
+
 // 配置API接口地址
 var root = 'https://cnodejs.org/api/v1'
 // 引用axios
@@ -188,15 +189,15 @@ export default {
     return apiAxios('DELETE', url, params, success, failure)
   }
 }
+//
 
-```
+//
 npm install axios -D
 
 调整 main.js 绑定 api/index.js 文件
 增加
 
-
-```
+//
 // 引用API文件
 import api from './api/index.js'
 // 将API方法绑定到全局
