@@ -24,6 +24,12 @@ docker rm 容器id或者容器名字
 ```
 docker start/restart/stop 容器id或者容器名字
 ```
+连接到容器
+```
+docker exec -it a01fa595368e bash
+a01fa595368e 容器id或者容器名字
+bash 连接到容器后执行到命令
+```
 拉取自己的镜像
 ```
 docker pull registry.cn-hangzhou.aliyuncs.com/wnn/vuedemo:1.1.0
