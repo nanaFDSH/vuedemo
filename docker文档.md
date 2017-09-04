@@ -53,6 +53,10 @@ docker tag 镜像名字 镜像仓库：版本号
 ```
 docker push registry.cn-hangzhou.aliyuncs.com/wnn/vuedemo:1.1.0
 ```
+如果需要登陆
+```
+docker login --username=用户名 registry.cn-hangzhou.aliyuncs.com
+```
 
 
 
