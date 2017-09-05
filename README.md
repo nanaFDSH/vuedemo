@@ -8,6 +8,11 @@ webpack 打包
     node -v
     npm -v
 
+安装 stylus 及其路由器
+
+    npm install -g stylus
+    npm install stylus-loader  在其所在项目
+
 能够得到如上图的版本号信息，则说明你的 nodejs 环境已经安装完成了。
 
 安装 vue-cli VUE的脚手架工具
